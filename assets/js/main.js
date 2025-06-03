@@ -358,6 +358,10 @@
       }
     });
 
+  const lightbox = GLightbox({
+    selector: '.portfolio-lightbox-trigger'
+  });
+
 
 
 })()
