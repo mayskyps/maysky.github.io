@@ -234,7 +234,7 @@
       clickable: true
     }
   });
-
+ 
   new Swiper('.melanin-swiper', {
     speed: 400,
     loop: true,

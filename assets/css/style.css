@@ -390,6 +390,9 @@ h6 {
 #hero .social-links .gmail:hover {
   color: #b90000;
 }
+#hero .social-links .resume:hover {
+  color: #68c5ff;
+}
 
 #hero .social-links .linkedin:hover {
   color: #005aad;
@@ -1269,6 +1272,7 @@ ul.experience-info{
 
 ul.experience-info li {
   position: relative;
+  
   /* space for custom bullet */
 }
 
@@ -1276,7 +1280,7 @@ ul.experience-info li::before {
   content: "✦";
   color: #61afef;
   margin-left: -30px;
-  margin-right: 10px;
+  margin-right: 15px;
   font-size: 16px;
   /* text-shadow: 0 0 6px #61afef; */
   transition: transform 0.3s ease, text-shadow 0.3s ease;
